@@ -1,11 +1,11 @@
 /*jslint node: true */
 'use strict';
-const constants = require('byteballcore/constants.js');
-const conf = require('byteballcore/conf');
-const db = require('byteballcore/db');
-const eventBus = require('byteballcore/event_bus');
-const validationUtils = require('byteballcore/validation_utils');
-const headlessWallet = require('headless-byteball');
+const constants = require('ocore/constants.js');
+const conf = require('ocore/conf');
+const db = require('ocore/db');
+const eventBus = require('ocore/event_bus');
+const validationUtils = require('ocore/validation_utils');
+const headlessWallet = require('headless-obyte');
 
 /**
  * headless wallet is ready
